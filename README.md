@@ -1,2 +1,7 @@
 # repository1
-experimental repository
+
+## experimental repository
+
+* git help;
+* git config --list;
+* git status;
