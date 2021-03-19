@@ -1,0 +1,8 @@
+print("Sabe-se que o cálculo do NWDI se dá através da seguinte expressão: NDWI = (Xgreen - Xnir) / (Xgreen + Xnir)")
+print("Sabe-se que o cálculo do NDVI se dá através da seguinte expressão: NDWI = (Xnir - Xred) / (Xnir + Xred)")
+Xgreen = float(input("Digite o valor de Xgreen: "))
+Xnir = float(input("Digite o valor de Xnir: "))
+Xred  = float(input("Digite o valor de Xred: "))
+NDWI = ((Xgreen) - (Xnir)) / ((Xgreen) + (Xnir))
+NDVI = ((Xnir) - (Xred)) / ((Xnir) + (Xred))
+print("A partir dos valores digitados, o resultado do cálculo do NDWI foi de %f e o resultado do cálculo do NDVI foi de %f" %(NDWI, NDVI))
