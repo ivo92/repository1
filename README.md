@@ -1,7 +1,1 @@
-# repository1
-
-## experimental repository
-
-* git help;
-* git config --list;
-* git status;
+# Repositório de Antônio Ivo
